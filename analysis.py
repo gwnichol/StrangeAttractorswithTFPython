@@ -2,12 +2,18 @@ from os import listdir
 from os.path import isfile, join
 import numpy as np
 
-mypath = "./SortTest"
+mypath = "./"
 filenames = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 codes =  []
 results = np.zeros(shape=(25,12))
 for a in filenames:
-    code = a[:12]
+    under = 1
+    for x in a:
+        if x == "_":
+            break
+        else:
+            under += 1
+    code = a[under:(under+12)]
     codes.append(code)
     first = 0
     for letter in code:
@@ -17,7 +23,7 @@ for a in filenames:
 results = results / ((1/25)*(len(filenames)))
 #print(codes)
 print("After " + str(len(filenames)) + " tests")
-print(results)
+print(np.around(results,decimals=2))
 
 # Calculate deviation
 print("Deviation: " + str(np.std(results)))
