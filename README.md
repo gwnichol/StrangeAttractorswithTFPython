@@ -50,7 +50,7 @@ indicates a tendency away. Dash indicates no instances.__
 ### Some examples of images created
 ![picture alt](./Images/colorized_SFPYQCIQUERW_0.24487993762262464.png "An example of a t-shape attractor") 
 An example of a t-shape attractor.
-![picture alt](./Images/colorized_JGYOOFOKXYGA_0.120703623714263.png "An example of a t-shape attractor") 
+![picture alt](./Images/colorized_JGYOOFOKXYGA_0.1207036232714263.png "A random attractor that looks cool") 
 
 Other pictres can be found in the Images folder.
 
