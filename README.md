@@ -72,10 +72,12 @@ python program to be able to use user-defined quadratic mapping equations.
 
 ## References
 Abadi, M., Agarwal, A., Barham, P., Eugene, B., Chen, Z., Citro, C., . . . Zheng, X.,
-  (2017) TensorFlow: Large-scale machine learning on heterogeneous systems
-  (Version 1.0.0) [Software]. Available from: tensorflow.org
+    (2017) TensorFlow: Large-scale machine learning on heterogeneous systems
+    (Version 1.0.0) [Software]. Available from: tensorflow.org
+
 Iam Whitham. (2009). The pragmatic procrastinator. [Web log comment]. Retrieved
-  from https://ianwitham.wordpress.com
+    from https://ianwitham.wordpress.com
+
 Sprott, J. C. (1998). Automatic generation of strange attractors. In C. A. Pickover
-  (Ed.), Chaos and fractals: a computer graphical journey (pp. 53-60). Amsterdam,
-  The Netherlands: Elsevier science B.V.
+    (Ed.), Chaos and fractals: a computer graphical journey (pp. 53-60). Amsterdam,
+    The Netherlands: Elsevier science B.V.
